@@ -1,0 +1,10 @@
+#userHeading{
+    text-align: center;
+    margin-top: 3vmax;
+    margin-bottom: 3vmax;
+}
+.userTable{
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(68, 68, 71);
+    margin-bottom: 5vmax;
+}

@@ -1,0 +1,118 @@
+.newUserContainer {
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(53, 55, 54);
+    position: fixed;
+    top: 0%;
+    left: 0;
+  }
+  
+  .newUserBox {
+    background-color: rgb(40, 39, 39);
+    width: 50vw;
+    height: 90vh;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  
+  .signUpRole{
+    background-color: rgb(40, 39, 39);
+  }
+  .signRole{
+    background-color: rgb(40, 39, 39);
+  }
+  .createUserForm > h1 {
+    text-align: center;
+    color: rgba(255, 255, 255);
+    font: 400 1.3vmax "Roboto";
+    padding: 1.3vmax;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.205);
+    width: 50%;
+    margin: auto;
+  }
+  
+  .createUserForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding: 2vmax;
+    justify-content: space-evenly;
+    height: 70%;
+    transition: all 0.5s;
+  }
+  
+  .createUserForm > div {
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .createUserForm > div > input {
+    padding: 1vmax 4vmax;
+    padding-right: 1vmax;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgb(40, 39, 39);
+    border: 1px solid rgba(255, 255, 255, 0.267);
+    border-radius: 4px;
+    font: 300 0.9vmax cursive;
+    outline: none;
+  }
+  
+  .createUserForm > div > svg {
+    position: absolute;
+    transform: translateX(1vmax);
+    font-size: 1.6vmax;
+    color: rgba(255, 255, 255, 0.623);
+  }
+  
+  .createUserBtn {
+    border: none;
+    background-color: rgb(255, 71, 178);
+    color: white !important;
+    font: 300 0.9vmax "Roboto";
+    width: 100%;
+    padding: 0.8vmax;
+    cursor: pointer !important;
+    transition: all 0.5s;
+    border-radius: 4px;
+    outline: none;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.219);
+  }
+  
+  .createUserBtn:hover {
+    background-color:transparent;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .newUserContainer {
+      background-color: rgb(52, 48, 48);
+    }
+    .newUserBox {
+      width: 100vw;
+      height: 95vh;
+    }
+  
+    .createUserForm {
+      padding: 5vmax;
+    }
+  
+    .createUserForm > div > input {
+      padding: 2.5vmax 5vmax;
+      font: 300 1.7vmax cursive;
+    }
+  
+    .createUserForm > div > svg {
+      font-size: 2.8vmax;
+    }
+  
+    .createUserBtn {
+      font: 300 1.9vmax "Roboto";
+      padding: 1.8vmax;
+    }
+  }

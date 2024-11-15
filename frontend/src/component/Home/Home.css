@@ -1,0 +1,126 @@
+body{
+    background-color: #191919;
+    font: 200 2vmax "Roboto";
+    color: #ffffff;
+}
+.container{
+    display: flex;
+    margin: 2vmax auto;
+    flex-wrap: wrap;
+    width: 80vw;
+    justify-content: center;
+    max-width: 100%;
+}
+.venue{
+    margin-top: 5pc;
+    margin-bottom: 5pc;
+    text-align: center;
+    margin-left: 10pc;
+    margin-right: 10pc;
+}
+
+.carousel{
+    height: 40vmax;
+}
+h5{
+    font: 900 3vmax "Roboto";
+    color: #ffffff;
+}
+h2{
+    font: 500 3vmax "Roboto";
+    color: #ffffff;
+}
+p{
+    font: 400 1.5vmax "Roboto";
+    color: #ffffff;
+}
+.b{
+    margin-top: -15vmax;
+    margin-left: 30vmax;
+    text-align: center;
+}
+.a{
+    text-align: center;
+    color: #ead8d8;
+    padding-right: 2vmax;
+    display: inline-flex;
+    font: 500 2vmax "Roboto";
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    min-width: 60px;
+    height: 60px;
+    background: #000000;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #ffffff;
+text-align: center;  
+  
+}
+
+.venueCard{
+    width: 14vmax;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    margin: 2vmax;
+    transition: all 0.5s;
+    padding-bottom: 0.5vmax;
+}
+
+.venueCard > img {
+    width: 14vmax;
+}
+
+.venueCard > div{
+    margin: 0.5vmax;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.venueCard > div > span{
+    margin: 0.5vmax;
+    font: 300 0.7vmax "Roboto"
+}
+
+.venueCard > p {
+    font-family: "Roboto";
+    font-size: 1.2vmax;
+    margin: 1vmax 0.5vmax;
+}
+
+.venueCard > span {
+    margin: 0.5vmax 0.5vmax;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    font: 1vmax
+}
+
+.venueCard:hover{
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    transform: translate(-1vmax);
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .venueCard > p{
+        font-size: 1.7vmax;
+    }
+    .venueCard > div{
+        margin: 0vmax;
+        display: block;
+    }
+
+    .venueCard > span {
+        font-size: 1.5vmax;
+    }
+
+    .venueCard > div > span {
+        margin: 0.5vmax;
+    }
+}

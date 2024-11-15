@@ -1,0 +1,166 @@
+.VenueDetails{
+    width: 100vw;
+    max-width: 100%;
+    padding: 6vmax;
+    box-sizing: border-box;
+}
+.VenueDetails > div{
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2vmax;
+    font: "Roboto";
+    box-sizing: border-box;
+}
+
+.det{
+    font: 600 9vmax "Roboto";
+    color: rgb(205, 201, 207);
+    text-align: center;
+}
+
+.deta{
+    justify-content: center;
+    align-items: center;
+}
+.star{
+    margin-top: 2vmax;
+    margin-left: 37vmax;
+}
+.st{
+    font: 50 1vmax "Roboto";
+    display: inline-flex;
+}
+.booking{
+    margin-left: 20vmax;
+}
+img{
+	max-width: 100%;
+}
+.gallery{
+	background-color: #3d3d3d;
+	padding: 80px 0;
+}
+.gallery img{
+	background-color: #ffffff;
+	padding: 8px;
+	min-width: 15vmax;
+    display: flex;
+    height: 15vmax;
+	box-shadow: 0 0 15px rgba(0,0,0,0.3);
+	cursor: pointer;
+    margin: 5px;
+}
+#gallery-modal .modal-img{
+	width: 100%;
+}
+
+.deco{
+  margin-top: 2vmax !important;
+  margin-bottom: 2vmax !important;
+  text-align: center;
+  font: 400 3vmax "Roboto" !important;
+  background-color: #282727 !important;
+}
+.but {
+  font: 400 2vmax "Roboto" !important;
+  text-align: center;
+  margin-left: 45vmax;
+  margin-top: 3vmax;
+}
+.decoSelect{
+  font: 100 1vmax "Roboto";
+  text-align: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+.reviewsHeading {
+  color: #fff;
+  font: 500 1.4vmax "Roboto";
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 255);
+  padding: 1vmax;
+  width: 20vmax;
+  margin: auto;
+  margin-bottom: 4vmax;
+}
+.reviews {
+  display: flex;
+  overflow: auto;
+}
+
+
+.submitReview {
+  border: none;
+  background-color: rgb(255, 71, 157);
+  font: 500 0.7vmax "Roboto";
+  border-radius: 20px;
+  padding: 0.6vmax 2vmax;
+  margin: 1vmax 0;
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s;
+  outline: none;
+}
+.submitReview:hover {
+  background-color: rgb(197, 45, 86);
+  transform: scale(1.1);
+}
+
+.submitDialog {
+  display: flex;
+  flex-direction: column;
+}
+.submitDialogTextArea {
+  border: 1px solid rgba(255, 255, 255);
+  margin: 1vmax 0;
+  outline: none;
+  padding: 1rem;
+  font: 300 1rem "Roboto";
+}
+
+.reviewsHeading {
+  color: #fff;
+  font: 500 1.4vmax "Roboto";
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.226);
+  padding: 1vmax;
+  width: 20vmax;
+  margin: auto;
+  margin-bottom: 4vmax;
+}
+.reviews {
+  display: flex;
+  overflow: auto;
+}
+.reviewCard {
+  flex: none;
+
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.226);
+  border: 1px solid rgba(255, 255, 255);
+  width: 30vmax;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1vmax;
+  padding: 3vmax;
+}
+.reviewCard > img {
+  width: 5vmax;
+}
+.reviewCard > p {
+  color: rgba(255, 255, 255);
+  font: 600 0.9vmax "Roboto";
+}
+.reviewCardComment {
+  color: rgba(255, 255, 255);
+  font: 300 0.8vmax cursive;
+}
+
+.noReviews {
+  font: 400 1.3vmax "Gill Sans";
+  text-align: center;
+  color: rgba(255, 255, 255);
+}

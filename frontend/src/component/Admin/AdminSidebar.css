@@ -1,0 +1,39 @@
+.sidebar {
+    background-color:  #212529;
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 0;
+    color: rgb(255, 255, 255);
+  }
+  
+  .sidebar > a:first-child {
+    padding: 0;
+  }
+  .sidebar > a > img {
+    width: 100%;
+    transition: all 0.5s;
+  }
+  
+  .sidebar > a > img:hover {
+    filter: drop-shadow(0 0 10px rgb(92, 66, 66));
+  }
+  .sidebar a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+    transition: all 1s;
+  }
+  .sidebar a:hover{
+    color: rgb(117, 117, 117);
+  }
+  .sidebar a > P {
+    display: flex;
+    align-items: center;
+  }
+  .sidebar a > p > svg {
+    margin-right: 0.5rem;
+  }
+  
+  .MuiTypography-root {
+    background-color:  #212529 !important;
+  }

@@ -1,0 +1,36 @@
+.venues{
+    color: white;
+    text-align: center;
+}
+hr{
+    margin-left: 10vmax;
+    margin-right: 10vmax;
+}
+.data{
+    font: 200 1.5vmax "Roboto";
+    align-items: center;
+    text-align: center;
+    margin-top: 2vmax;
+}
+
+img{
+	max-width: 100%;
+}
+.gallery{
+	background-color: #3d3d3d;
+	padding: 80px 0;
+}
+.gallery img{
+	background-color: #ffffff;
+	padding: 8px;
+	min-width: 15vmax;
+    display: flex;
+    height: 15vmax;
+	box-shadow: 0 0 15px rgba(0,0,0,0.3);
+	cursor: pointer;
+    margin: 5px;
+}
+#gallery-modal .modal-img{
+	width: 100%;
+}
+
